@@ -47,6 +47,7 @@ header ul {
 
 header ul li {
 	display: inline-block;
+	color: #045a12;
 }
 
 header ul li a {
@@ -67,7 +68,7 @@ header ul li a:hover {
 .banner {
 	height: 59vh;
 	background-image: url('../images/home_banner.jpg');
-	background-size: contain; 
+	background-size: cover; 
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -93,6 +94,11 @@ section h3 {
 	margin-bottom: 20px;
 }
 
+.label {
+	background-color:#045a12; 
+	color: #fff;
+}
+
 .profile p {
 	color: #666;
 	word-spacing: 2px;
@@ -100,11 +106,6 @@ section h3 {
 	text-align: left;
 	padding: 30px 25px;
 	float: left;
-}
-
-.label {
-	background-color:#045a12; 
-	color: #fff;
 }
 
 .hometown p {
